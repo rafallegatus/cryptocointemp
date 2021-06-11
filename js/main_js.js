@@ -1,4 +1,3 @@
-
 //menu toggle
 (function($){
     $('.nav-toggle').click(function(e){
@@ -42,8 +41,8 @@
 	    winW = $window.width();
 
 	    // Keep minimum height 550
-	    if(winH <= 550) {
-	        winH = 550;
+	    if(winH <= 650) {
+	        winH = 950;
 	    }
 
 	    // Init Skrollr for 768 and up
