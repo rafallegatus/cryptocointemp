@@ -21,9 +21,11 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     line-height: 1.4;
-	height: 100%;
 	min-height: 100%;
-	background-color: #4ec8f9;
+	background-color: #0f0f0f;
+	height: auto;
+
+	
 	
 }
 
@@ -45,6 +47,7 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
+	
 }
 
 
@@ -83,15 +86,15 @@ textarea {
 		
 	
 		
-			.topheader { 
+.topheader { 
 		
 			overflow: hidden;
-			width:100%; 
-			position: fixed; 
-			top: 0; 
-			left: 0;
-			z-index: 999999;
-			}
+	width:100%; 
+	position: fixed; 
+	top: 0; 
+	left: 0;
+	z-index: 999999;
+}
 
 
 			
@@ -256,7 +259,13 @@ span.icon-bar{
 		opacity:0;
 	}
 }
-			
+		
+/* ==========================================================================
+   Slide Table Style
+   ========================================================================== */
+
+
+		
 /* ==========================================================================
    Shapes
    ========================================================================== */
@@ -285,11 +294,12 @@ span.icon-bar{
 }			
 			
 .sectionbox_left {
-	background: lightblue;
+	background: #31373e;
+	color: #11999e;
 	position: absolute;
-    border-radius: 5%;
+    border-radius: 30px 30px 30px 30px;
 	width: 200px;
-    height: 100px;
+    height: 200px;
 	top: 100px;
 	
 	
@@ -297,27 +307,111 @@ span.icon-bar{
 
 
 .sectionbox_middle {
-	background: lightblue;
+	background: #31373e;
+	color: #11999e;
 	position: absolute;
-    border-radius: 5%;
+    border-radius: 30px 30px 30px 30px;
 	width: 200px;
-    height: 100px;
+    height: 200px;
 	left: 300px;
 	top: 100px;
 }			
 			
 .sectionbox_right {
-	background: lightblue;
+	background: #31373e;
+	color: #11999e;
 	position: absolute;
-    border-radius: 5%;
+    border-radius: 30px 30px 30px 30px;
 	width: 200px;
-    height: 100px;
+    height: 200px;
 	left: 600px;
 	top: 100px;
 	
 }			
+
+
+.roadmapssection {
+	
+	width: 100%;
+
+	position: absolute;
+}			
+
+
+
+.section_inner {
+	
+	width: 100%;
+
+	
+		
+}
+
+.section_inner h3 {
+	
+text-align: center;
+	
+}
+
+.section_inner ul {
+	
+	text-align: left;
+	font-size: 12px;
+	font-weight: lighter;
+	
+}
+
+/* ==========================================================================
+   Contact Images
+   ========================================================================== */
+.contact_image1 {
+	
+	    width: 20%;
+		padding-left: 350px;
+
+}
+
+
+.socialmedia_icons {
+	
+	
+	font-size: 35px;
+	text-decoration: none;
+	background-color: #184f64;
+	
+	
+	padding: 15px 15px 15px 15px;
+	
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+}
+
+
+
+   
 			
 			
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+   	
+			
+.footertab {
+	width: 100%;
+	background-color:#0f0f0f ;
+	color: #11999e;
+	font-size: 14px;
+	padding: 10px 0px 10px 0px;
+	
+}
+	
+
+.footertext {
+	
+	margin-left: 20px;
+	
+}	
 
 
 /* ==========================================================================
@@ -378,11 +472,26 @@ main {
 
 .hsContent {
 	max-width: 100%;
+	height: 1000px;
 	position: absolute;
 	left: 20%;
 	right: 20%;
-	top: 50%;
+	top: 15%;
 }
+
+
+	.hsContent h1  {
+		text-align: center;
+		color: #fff8de;
+		padding: 0px 5px;
+		font-size: 55px;
+		line-height: 38px;
+		margin-bottom: 12px;
+		line-height: 54px;
+	}
+	
+	
+	
 	.hsContent h2  {
 		text-align: center;
 		color: #fff8de;
@@ -391,28 +500,83 @@ main {
 		line-height: 38px;
 		margin-bottom: 12px;
 	}
+	
 	.hsContent p {
 		width: 100%;
 		color: #fff;
 		text-align: center;
 	}
 	.hsContent a {
-		color: #b2b2b2;
-		text-decoration: underline;
+		color: #fff;
+		text-decoration: none;
 	}
 
 /* Slide 1 */
-#slide-1 .bckg {background-image:url('../images/bckg_slide-1.jpg')}
-#slide-1 .hsContent {
-	bottom: 200px;
-	top: auto;
+#slide-1 .bckg {
+	
+	
+	background-image:url('../images/bckg_slide-1.jpg'); /* Uncomment this if you want to have a plane color bg */
+	display: cover;
+
 }
 
+
+
+#slide-1 .hsContent {
+	
+	margin-top: -10px;
+	bottom: 900px;
+	height: 1200px;
+}
+
+#slide-1 h1 {
+	
+	text-align: center;
+    color: #fff8de;
+
+
+}
+
+
+#slide-1 h2 {
+	
+	
+	text-align: center;
+    color: #fff8de;
+
+
+}
+
+#slide-1  table tr {
+	
+     color: #fff;
+	 vertical-align: text-top;
+}
+
+#slide-1  th {
+		
+	font-size: 30px;
+     
+}
+
+
+
+
+
 /* Slide 2 */
-#slide-2 .bckg {background-image:url('../images/bckg_slide-2.jpg')}
+#slide-2 .bckg {
+	
+	/* background-image:url('../images/bckg_slide-2.jpg');*/ /* Uncomment this if you want to have a plane color bg */
+	background-color: #3c3c3c;
+	
+	
+	
+}
+
+
 #slide-2 .hsContent {
 	
-	top: 200px;
+	top: 150px;
 	
 }
 #slide-2 h2 {
@@ -424,29 +588,79 @@ main {
 }
 
 /* Slide 3 */
-#slide-3 .bckg {background-image:url('../images/bckg_slide-3.jpg')}
-#slide-3 .hsContent {
-	margin-left: px;
-	margin-top: -200px;
+#slide-3 .bckg {
+	
+	/* background-image:url('../images/bckg_slide-3.jpg'); */ /* Uncomment this if you want to have a plane color bg */
+	background-color:#242424;  
+	
 }
+	
+#slide-3 .hsContent {
+	
+	
+	text-align: center;
+}
+
+
 	#slide-3 h2 {
-		color: #f2ead6;
-		background-color: rgba(0,0,0,0.6);
+		
+		padding-top: 200px;
+		font-size: 80px;
+		color: #fff;
 	}
+	
+	
+	#slide-3  .roadmapssection {
+		
+		
+		padding-top: 200px;
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
 
 /* Slide 4 */
 #slide-4 .bckg {background-image:url('../images/bckg_slide-4.jpg')}
 #slide-4 .hsContent {
-	margin-left: -450px;
-	position: fixed;
-	top: 250px;
+	margin-left: 0px;
+
+
 }
+
+	#slide-4 h1 {
+		
+	color: #fff;
+	font-size: 100px;
+	text-align: center;
+	
+	line-height: 90px;
+	margin-top: -10px;
+		
+	}
+
+
 	#slide-4 h2 {
 		background: none;
 		padding-left: 0;
 		padding-right: 0;
 		
 	}
+	
+	#slide-4 p {
+	
+	text-align: center;
+	width: 100%;
+		
+	}
+
 
 
 
@@ -528,11 +742,8 @@ main {
 	
 	
 	
-	
 .sectionbox_left {
 
-
-	
 position: absolute;
 width: 100%;
 padding: 0;
@@ -560,11 +771,11 @@ left: 0;
 border-radius: 0%;
 	
 }			
+
+	
+	
 	
 
-    body, html {
-        height: auto;
-    }
     .bckg {
         background-position: center center;
         background-repeat: no-repeat;
@@ -576,15 +787,15 @@ border-radius: 0%;
 	
     section {
         min-width: 768px;
-        height: 600px;
+        height: 800px;
     }
     .hsContainer {
         width: 100%;
         height: 100%;
         overflow: hidden;
         position: absolute;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: -100px;
+		padding-bottom: -200px;
     }
     .hsContent {
         max-width: 320px;
@@ -594,22 +805,34 @@ border-radius: 0%;
         text-align: center;
         padding: 0;
     }
-        .hsContent h2  {
+        .hsContent h1  {
+            font-size: 16px;
+            line-height: 16px;
+        }
+		
+		.hsContent h2  {
             font-size: 20px;
             line-height: 28px;
         }
+		
+		
         .hsContent p {
+			font-size: 12px;
             width: 250px;
         }
-    #slide-1 .hsContent {
-        bottom: 120px;
+ 
+	
+	
+	#slide-1 .hsContent {
+        bottom: 10px;
         top: 70px;
         margin-left: -120px;
     }
+	
+	
     #slide-2 .hsContent {
       
        
-    
 	   margin-top: -100px;
 	   margin-left: -120px;
     }
@@ -620,20 +843,80 @@ border-radius: 0%;
        
     }
     #slide-3 .hsContent {
-        margin-left: -200px;
+		
+		width: 100%;
+        margin-left: -160px;
+		margin-top: -370px;
 		
     }
+	
+	#slide-3 h2 {
+		
+	
+		padding-top: 60px;
+       
+    }
+	
+	#slide-4 section {	
+    height: 400px;
+    }
+	
     #slide-4 .hsContent {
+	
         margin-left: -100px;
         margin-left: -100px;
+		margin-top: -200px;
         position: absolute;
     }
+	
+	
+	#slide-4 h1 {
+		
+	
+	font-size: 60px;
+	margin-left: -530px;
+	margin-top: -50px;
+	line-height: 60px;
+		
+	}
+	
     #slide-4 h2 {
 		
         background: none;
     }
+	
+	
+	/* ==========================================================================
+   Contact Images
+   ========================================================================== */
+.contact_image1 {
+	
+	    width: 100%;
+		padding-left: 20px;
 
 }
+   
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}
+
+
+
+
+
+
 
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
