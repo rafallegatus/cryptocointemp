@@ -291,6 +291,14 @@ span.icon-bar{
 	align-items: center;
   
 	
+}
+
+
+.coin_image {
+	
+	width:200px;
+	height:auto;
+	
 }			
 			
 .sectionbox_left {
@@ -749,6 +757,18 @@ padding-top: 200px;
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
 	
+
+	
+	
+.circle_shape {
+
+margin-top: 20px;
+margin-bottom: -20px;
+  
+	
+}	
+	
+	
 	
 	
 .sectionbox_left {
@@ -783,6 +803,10 @@ padding-top: 200px;
 	border-radius: 0%;
 	
 }			
+
+
+
+
 
 	
 	
