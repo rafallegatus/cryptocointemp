@@ -364,6 +364,8 @@ text-align: center;
 /* ==========================================================================
    Contact Images
    ========================================================================== */
+   
+   
 .contact_image1 {
 	
 	    width: 20%;
@@ -379,12 +381,12 @@ text-align: center;
 	text-decoration: none;
 	background-color: #184f64;
 	
-	
 	padding: 15px 15px 15px 15px;
 	
 	width: 25px;
 	height: 25px;
-	border-radius: 25px;
+	border-radius: 30px;
+	
 }
 
 
@@ -938,6 +940,7 @@ section {
    Contact Images
    ========================================================================== */
    
+   
 .contact_image1 {
 	
 	width: 100%;
@@ -945,8 +948,24 @@ section {
 
 }
    
-	
 
+.socialmedia_icons {
+	
+	
+	font-size: 25 px;
+	padding: 15px 15px 15px 15px;
+
+	width: 20px;
+	height: 20px;
+	border-radius: 30px;
+	
+}   
+
+	
+	
+	
+	
+	
 }
 
 
