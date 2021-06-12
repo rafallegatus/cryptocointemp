@@ -491,6 +491,7 @@ main {
 
 
 .hsContent h1  {
+	
 		text-align: center;
 		color: #fff8de;
 		padding: 0px 5px;
@@ -852,8 +853,8 @@ section {
 }
 
 .hsContent h1  {
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 22px;
+        line-height: 22px;
 }
 		
 .hsContent h2  {
@@ -908,12 +909,21 @@ section {
 }
 	
 	
+	
+#slide-2 h1 {
+		
+	text-align:center;	  
+	width: 100%;
+       
+}
+
 #slide-2 h2 {
 		
 	text-align:center;	  
 	width: 100%;
        
 }
+
 
 #slide-3 .hsContent {
 		
@@ -954,7 +964,6 @@ section {
 		
 	
 	font-size: 60px;
-	margin-left: 10px;
 	margin-top: -50px;
 	line-height: 60px;
 		
