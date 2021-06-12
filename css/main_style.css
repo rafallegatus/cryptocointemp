@@ -556,10 +556,15 @@ main {
 #slide-1  th {
 		
 	font-size: 30px;
-     
+	
+  
 }
 
+#slide-1  td {
+padding-left: 10px;
+	padding-right: 10px;
 
+}
 
 
 
@@ -787,11 +792,10 @@ border-radius: 0%;
 	
     section {
         min-width: 768px;
-        height: 800px;
+        height: 900px;
     }
     .hsContainer {
         width: 100%;
-        height: 100%;
         overflow: hidden;
         position: absolute;
 		padding-top: -100px;
@@ -801,7 +805,7 @@ border-radius: 0%;
         max-width: 320px;
         position: absolute;
         left: 50%;
-        top: 50%;
+        top: 1%;
         text-align: center;
         padding: 0;
     }
@@ -830,6 +834,33 @@ border-radius: 0%;
     }
 	
 	
+	
+	#slide-1  table  {
+		
+	width: 300px;
+	margin-left: -40px;
+	
+    }
+	
+	#slide-1  tbody  {
+		
+    font-size: 12px;
+	
+    }
+	
+	
+	
+	
+	
+	
+	#slide-1  th  {
+		
+    font-size: 15px;
+	
+    }
+	
+	
+	
     #slide-2 .hsContent {
       
        
@@ -846,35 +877,37 @@ border-radius: 0%;
 		
 		width: 100%;
         margin-left: -160px;
-		margin-top: -370px;
 		
     }
 	
 	#slide-3 h2 {
 		
-	
-		padding-top: 60px;
+		font-size: 50px;
+		padding-top: 100px;
        
     }
 	
 	#slide-4 section {	
-    height: 400px;
+    height: 500px;
     }
 	
     #slide-4 .hsContent {
 	
-        margin-left: -100px;
-        margin-left: -100px;
-		margin-top: -200px;
+        margin-left: -110px;
+		margin-top: 200px;
         position: absolute;
     }
 	
+	#slide-4 .hsContainer {
+	
+     height: 120%;
+    }
 	
 	#slide-4 h1 {
 		
 	
 	font-size: 60px;
-	margin-left: -530px;
+	margin-left: 10px;
 	margin-top: -50px;
 	line-height: 60px;
 		
