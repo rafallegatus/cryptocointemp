@@ -765,16 +765,17 @@ padding-top: 200px;
 	
 	position: absolute;
 	width: 100%;
-	top:250px;
+	top:280px;
 	margin: 0;
 	left: 0;
 	border-radius: 0%;
 }			
 			
 .sectionbox_right {
+	
 	position: absolute;
 	width: 100%;
-	top: 400px;
+	top: 460px;
 	margin: 0;
 	left: 0;
 	border-radius: 0%;
