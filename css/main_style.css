@@ -296,7 +296,7 @@ span.icon-bar{
 
 .coin_image {
 	
-	width:200px;
+	width:350px;
 	height:auto;
 	
 }			
@@ -768,7 +768,13 @@ margin-bottom: -20px;
 	
 }	
 	
+
+.coin_image {
 	
+	width:200px;
+	height:auto;
+	
+}	
 	
 	
 .sectionbox_left {
